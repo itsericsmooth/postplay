@@ -223,3 +223,24 @@ footer {
   .fa-search {
     
   }
+
+
+  @media only screen and (min-width: 500px) {
+
+    .card {
+        grid-template-rows: 6vh 7vh 4vh 3vh;
+    }
+
+  .userName {
+      padding-left: 100px;
+  }
+
+  .action {
+      padding-left: 0px;
+  }
+  
+  header {
+    height: 100px;
+  }
+
+}
